@@ -1,0 +1,112 @@
+🔹 Step 1: Choose and Install a Tool
+
+You can use OpenVAS (Greenbone Community Edition) or Nessus Essentials (both are free).
+
+For beginners, Nessus Essentials is easier.
+👉 Download: https://www.tenable.com/products/nessus/nessus-essentials
+👉 OpenVAS: https://greenbone.net/en/testnow/
+
+
+
+---
+
+🔹 Step 2: Setup the Scan Target
+
+If scanning your own PC, use:
+
+localhost
+
+or your system’s IP address (check with ipconfig on Windows / ifconfig or ip addr on Linux).
+
+
+
+
+---
+
+🔹 Step 3: Run the Scan
+
+In Nessus, create a new scan → select Basic Network Scan.
+
+Enter target (127.0.0.1 or your IP).
+
+Start the scan.
+
+The scan may take 30–50 mins depending on your system.
+
+
+
+---
+
+🔹 Step 4: Review Results
+
+After scanning, Nessus/OpenVAS will generate a report.
+
+It lists vulnerabilities with severity levels:
+
+Critical (Red)
+
+High (Orange)
+
+Medium (Yellow)
+
+Low (Green/Blue)
+
+
+
+
+---
+
+🔹 Step 5: Research Fixes
+
+For each issue:
+
+Read the description.
+
+Search fixes (e.g., update OS, patch software, disable weak services, firewall rules).
+
+
+
+---
+
+🔹 Step 6: Document Findings
+
+Make a simple report file (Word/Notepad/Markdown). Include:
+
+1. Tool used (Nessus/OpenVAS)
+
+
+2. Target (localhost / IP)
+
+
+3. Top vulnerabilities found (name + severity)
+
+
+4. Suggested fixes
+
+
+5. Screenshots of scan results
+
+
+---
+
+✅ Example Structure 
+
+# Basic Vulnerability Scan - Report
+
+**Tool Used:** Nessus Essentials  
+**Target:** Localhost (127.0.0.1)  
+**Date:** 25-09-2025  
+
+## Findings:
+1. OpenSSH 7.2 outdated (High) → Fix: Upgrade to latest OpenSSH  
+2. SSL/TLS weak cipher detected (Medium) → Fix: Disable weak ciphers  
+3. Missing Windows Security Update KBxxxx (Critical) → Fix: Update OS  
+
+## Screenshots:
+[Insert screenshots of Nessus/OpenVAS results]
+
+## Conclusion:
+The scan detected X critical, Y high, Z medium vulnerabilities.  
+Patching outdated software and applying OS updates will reduce risks.
+
+
