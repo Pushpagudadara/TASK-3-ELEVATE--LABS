@@ -1,0 +1,32 @@
+# Vulnerability Scan Report
+
+**Tool Used:** Nessus Essentials  
+**Target:** Localhost (127.0.0.1)  
+**Date:** 25-09-2025  
+
+---
+
+## Findings
+
+1. **OpenSSH 7.2 outdated**  
+   - Severity: High  
+   - Fix: Upgrade to the latest OpenSSH version.  
+
+2. **SSL/TLS Weak Cipher Detected**  
+   - Severity: Medium  
+   - Fix: Disable weak ciphers in the configuration.  
+
+3. **Missing Windows Security Update KBxxxx**  
+   - Severity: Critical  
+   - Fix: Apply the latest OS updates.  
+
+---
+
+## Screenshots
+Screenshots of scan results are saved in the `screenshots/` folder.  
+
+---
+
+## Conclusion
+The scan detected **X critical, Y high, Z medium vulnerabilities**.  
+By updating outdated software, applying security patches, and disabling weak protocols, the overall system security can be improved.
