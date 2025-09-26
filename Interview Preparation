@@ -1,0 +1,25 @@
+
+💬 Interview Prep
+❓ 1. What is vulnerability scanning?
+🧪 An automated process to identify security flaws in systems or applications.
+
+⚔️ 2. Vulnerability scanning vs penetration testing?
+🔍 Scanning is passive and broad; 🧨 Pen testing is active and deeper with exploitation attempts.
+
+🖥️ 3. Common PC vulnerabilities?
+🐞 Unpatched OS, open ports, weak passwords, outdated software.
+
+🧠 4. How are vulnerabilities detected?
+🔎 By comparing service signatures, CVEs, and configurations against a vulnerability database.
+
+📊 5. What is CVSS?
+📐 Common Vulnerability Scoring System – rates severity from 0 (low) to 10 (critical).
+
+🔁 6. How often to scan?
+📆 Ideally monthly, and after major system changes or patches.
+
+🚫 7. What is a false positive?
+⚠️ When a scan reports a vulnerability that doesn't actually exist.
+
+⏱️ 8. How to prioritize vulnerabilities?
+🧮 Based on CVSS score, exploitability, business impact, and exposure.
